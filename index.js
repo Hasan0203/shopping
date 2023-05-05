@@ -1,8 +1,9 @@
 // module package core 
-// module package external
-const moment = require('moment');
 
-// const inquirer = require('inquirer');
+// module package external
+// const moment = require('moment');
+
+
 // inquirer
 // .prompt ([{ type: "input", name: "ragam", message: "ragamni kiriting?" }])
 // .then((answer) => {
@@ -26,17 +27,34 @@ const moment = require('moment');
 
 //module package file
 
- const calculate = require("./hisob.js");
+//  const calculate = require("./hisob.js");
 
- const natija = calculate.kopaytirish(10, 2);
- console.log(natija);
- const natija2 = calculate.bolish(20, 2);
- console.log(natija2);
- const natija3 = calculate.ayrish(40, 2);
- console.log(natija3);
- const natija4 = calculate.qoshish(110, 2);
- console.log(natija4);
+//  const natija = calculate.kopaytirish(10, 2);
+//  console.log(natija);
+//  const natija2 = calculate.bolish(20, 2);
+//  console.log(natija2);
+//  const natija3 = calculate.ayrish(40, 2);
+//  console.log(natija3);
+//  const natija4 = calculate.qoshish(110, 2);
+//  console.log(natija4);
 
-// console.log(require("module").wrapper);
+// const Account =require("./account");
+// Account.tellMeAboutClass();
+
+// const myAccount = new Account('Hasan', 200000, 42342424234);
+// myAccount.giveMeDetails();
+
+// myAccount.makeDeposit(100000);
+
+// //bugatti chiyron 2.4mln usd;
+
+// myAccount.withdrawMoney(400000);
+// myAccount.makeDeposit(900000);
+
+
+
+
+
+
 
 

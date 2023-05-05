@@ -1,3 +1,6 @@
+
+const moment =require("moment");
+
 let hisob ={};
 
 hisob.kopaytirish = (a, b) => {
